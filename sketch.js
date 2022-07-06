@@ -20,9 +20,7 @@ function setup() {
   engine = Engine.create();
   world = engine.world;
   
-   var ball_options = {
-    restitution: 0.95,
-  }
+
    
   
   btn2 = createImg('up.png');
@@ -37,8 +35,6 @@ function setup() {
   ground =new Ground(200,390,400,20);
 
 
-  ball = Bodies.circle(100,200,20,ball_options);
-  World.add(world,ball);
   
   
   
